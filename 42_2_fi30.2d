@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ASCII'?>
+<document>
+  <origin x="0" y="0"/>
+  <grid size="100"/>
+  <units display="mm"/>
+  <elements>
+    <vertex name="V2" layer="0" x="0.0" y="-0.0"/>
+    <vertex name="V3" layer="0" x="422.0" y="0.0"/>
+    <vertex name="V9" layer="0" x="211.0" y="0.0"/>
+    <vertex name="V27" layer="0" x="211.0" y="200.0"/>
+    <vertex name="V29" layer="0" x="211.0" y="350.0"/>
+    <edge name="E2" type="line" layer="0" v1="V2" v2="V3"/>
+    <edge name="E7" type="line" layer="0" v1="V2" v2="V9"/>
+    <edge name="E34" type="circle" layer="0" v1="V27" v2="V29"/>
+    <edge name="E37" type="line" layer="0" v1="V9" v2="V27"/>
+  </elements>
+</document>
